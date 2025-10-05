@@ -1,0 +1,995 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../5_2_vistas_seis/">
+      
+      
+        <link rel="next" href="../7_librecad/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>6. La acotación (poniendo las medidas) - Expresión gráfica</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 12a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M6 13h8l-3.5 3.5 1.42 1.42L17.84 12l-5.92-5.92L10.5 7.5 14 11H6z"/></svg>');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+sans,+sans-serif:300,300i,400,400i,700,700i%7CFira+code,+sans-serif:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto sans, sans-serif";--md-code-font:"Fira code, sans-serif"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+      <link rel="stylesheet" href="../css/quiz.css">
+    
+      <link rel="stylesheet" href="../css/cuestionarios.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#capitulo-6-la-acotacion-poniendo-las-medidas" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Expresión gráfica" class="md-header__button md-logo" aria-label="Expresión gráfica" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Expresión gráfica
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              6. La acotación (poniendo las medidas)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartir" aria-label="Compartir" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Expresión gráfica" class="md-nav__button md-logo" aria-label="Expresión gráfica" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Expresión gráfica
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1_tecnologia_dibujo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. La tecnología y el dibujo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_boceto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Del boceto al croquis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_plano/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. El plano
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4_materiales/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Materiales para el dibujo técnico
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    5. Las vistas de un objeto (Sistema Diédrico)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            5. Las vistas de un objeto (Sistema Diédrico)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_vistas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5.1. Introducción a las vistas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_1_vistas_tres/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5.1. Las tres vistas principales
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5_2_vistas_seis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5.2. Las seis vistas de un objeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    6. La acotación (poniendo las medidas)
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    6. La acotación (poniendo las medidas)
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#51-elementos-de-una-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1. Elementos de una Cota
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1. Elementos de una Cota">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#511-linea-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1.1. Línea de cota
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1.1. Línea de cota">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reglas-esenciales-para-las-lineas-auxiliares-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reglas Esenciales para las Líneas Auxiliares de Cota
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#512-linea-auxiliar-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1.2. Línea auxiliar de cota
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1.2. Línea auxiliar de cota">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reglas-esenciales-para-las-lineas-auxiliares-de-cota_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reglas Esenciales para las Líneas Auxiliares de Cota
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#513-cifra-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1.3. Cifra de cota
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1.3. Cifra de cota">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reglas-esenciales-para-las-cifras-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reglas Esenciales para las Cifras de Cota
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#514-flecha-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1.4. Flecha de cota
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1.4. Flecha de cota">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reglas-esenciales-para-dibujar-las-flechas-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reglas Esenciales para dibujar las Flechas de Cota
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-reglas-basicas-para-acotar" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2. Reglas básicas para acotar
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7_librecad/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Dibujo asistido por ordenador (CAD)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#51-elementos-de-una-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1. Elementos de una Cota
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1. Elementos de una Cota">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#511-linea-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1.1. Línea de cota
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1.1. Línea de cota">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reglas-esenciales-para-las-lineas-auxiliares-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reglas Esenciales para las Líneas Auxiliares de Cota
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#512-linea-auxiliar-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1.2. Línea auxiliar de cota
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1.2. Línea auxiliar de cota">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reglas-esenciales-para-las-lineas-auxiliares-de-cota_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reglas Esenciales para las Líneas Auxiliares de Cota
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#513-cifra-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1.3. Cifra de cota
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1.3. Cifra de cota">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reglas-esenciales-para-las-cifras-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reglas Esenciales para las Cifras de Cota
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#514-flecha-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1.4. Flecha de cota
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1.4. Flecha de cota">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reglas-esenciales-para-dibujar-las-flechas-de-cota" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reglas Esenciales para dibujar las Flechas de Cota
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-reglas-basicas-para-acotar" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2. Reglas básicas para acotar
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<p>¡Estupendo! Pasemos a la acotación. Es el paso lógico y fundamental para que un plano sea útil de verdad.</p>
+<p>Como habíamos comentado, una vez dibujadas las vistas (alzado, planta y perfil), nos falta la información más importante para poder fabricar el objeto: sus medidas exactas. A este proceso de añadir las medidas a un plano se le llama <strong>acotar</strong>.</p>
+<hr />
+<h1 id="capitulo-6-la-acotacion-poniendo-las-medidas"><strong>Capítulo 6: La Acotación (poniendo las medidas)</strong></h1>
+<p><img align="right" alt="acotacion" src="../media/acotacion1.png" width="60%" /></p>
+<p>Ya sabemos representar la forma de un objeto con sus vistas, pero para que alguien pueda construirlo, necesitamos indicar sus dimensiones reales.</p>
+<div class="admonition note">
+<p class="admonition-title">Acotación</p>
+<p>La <strong>acotación</strong> es el proceso de añadir las medidas a un dibujo técnico siguiendo un conjunto de reglas o normas para que cualquiera pueda interpretarlas correctamente.</p>
+</div>
+<p>El objetivo es que el plano tenga la información mínima, suficiente y adecuada para su fabricación.</p>
+<h2 id="51-elementos-de-una-cota"><strong>5.1. Elementos de una Cota</strong></h2>
+<p>Para acotar, utilizamos una serie de elementos que siempre son los mismos:</p>
+<ul>
+<li><strong>Línea de cota:</strong> Es una línea fina y continua, paralela a la medida que estamos indicando. Se dibuja a unos 8 mm de la arista del objeto.</li>
+<li><strong>Cifra de cota:</strong> Es el número que indica la medida real del objeto en milímetros (mm), aunque no se escriben las unidades. Se coloca encima y en el centro de la línea de cota.</li>
+<li><strong>Líneas auxiliares de cota:</strong> Son líneas finas que parten de la pieza y delimitan la línea de cota. Sobresalen un poco (2-3 mm) de la línea de cota.</li>
+</ul>
+<p><img align="right" alt="acotacion" src="../media/acotacion2.png" width="60%" /></p>
+<ul>
+<li><strong>Flechas de cota:</strong> Son los extremos de la línea de cota. Todas las flechas de un mismo dibujo deben ser iguales.</li>
+<li><strong>Símbolos:</strong> A veces, la cifra de cota va acompañada de un símbolo para dar más información. Los más comunes son:<ul>
+<li><strong>R</strong> para indicar el radio de un arco.</li>
+<li><strong>⌀</strong> para indicar el diámetro de una circunferencia.</li>
+</ul>
+</li>
+</ul>
+<p>Vamos a profundizar un poco más en cada elemento.</p>
+<p><img align="right" alt="acotacion" src="../media/linea_cota2.png" width="40%" /></p>
+<h3 id="511-linea-de-cota"><strong>5.1.1. Línea de cota</strong></h3>
+<p>Sirven para "soportar" las cifras que indican las medida. <strong>Encima de ellas colocaremos la cifra que indica la dimensión</strong> de esa medida, por lo que las líneas de cota suelen tener la misma longitud que la arista que se va a acotar.</p>
+<h4 id="reglas-esenciales-para-las-lineas-auxiliares-de-cota">Reglas Esenciales para las Líneas Auxiliares de Cota</h4>
+<ol>
+<li>
+<p><strong>Cómo dibujar las líneas (Apariencia):</strong> Las líneas que indican la medida (<strong>líneas de cota</strong>) deben dibujarse <strong>finas y continuas</strong>. De esta manera, se distinguen claramente de las líneas que forman el objeto.</p>
+</li>
+<li>
+<p><strong>Dirección de la medida (Paralelismo):</strong> Las líneas de cota se deben colocar <strong>paralelas</strong> a la arista del objeto que se quiere medir.</p>
+</li>
+<li>
+<p><strong>Ubicación y separación:</strong> Las cotas se deben situar, <strong>preferiblemente, en el exterior de la pieza</strong>. La primera línea de cota debe estar separada del objeto una distancia considerable (alrededor de <strong>8 mm</strong>) para que la cifra de cota sea legible.</p>
+</li>
+<li>
+<p><strong>Final de la línea (Terminación):</strong> Las líneas de cota terminan en <strong>flechas</strong> (triángulos isósceles). Si el espacio es muy pequeño, las flechas pueden cambiarse por un punto.</p>
+</li>
+<li>
+<p><strong>Prohibiciones (Interferencia y Ejes):</strong> Es una norma esencial que las líneas de cota <strong>no deben cruzarse entre sí</strong>. Además, <strong>nunca se deben utilizar los ejes o las aristas</strong> del objeto como si fueran líneas de cota.</p>
+</li>
+</ol>
+<p><img align="right" alt="acotacion" src="../media/linea_auxiliar1.png" width="40%" /></p>
+<h3 id="512-linea-auxiliar-de-cota"><strong>5.1.2. Línea auxiliar de cota</strong></h3>
+<p>Es la línea que <strong>marca los límites de la línea de cota</strong>, nos indica en donde empieza la medida y en donde acaba Es una línea fina perpendicular a la superficie a medir y, de la misma forma, perpendicular a la línea de cota.</p>
+<h4 id="reglas-esenciales-para-las-lineas-auxiliares-de-cota_1">Reglas Esenciales para las Líneas Auxiliares de Cota</h4>
+<ol>
+<li><strong>Trazado y Apariencia:</strong> Se deben dibujar con las mismas características que las líneas de cota: con <strong>línea llena, continua y fina</strong>.</li>
+<li><strong>Dirección (Perpendicularidad):</strong> Estas líneas son generalmente <strong>perpendiculares</strong> (forman 90 grados) a las líneas de cota. Excepcionalmente, en algunos casos, pueden trazarse a 60º.</li>
+<li><strong>Función de Extensión:</strong> Se utilizan partiendo de las aristas de la pieza o de sus extremos. Son necesarias cuando las líneas de cota no pueden colocarse justo entre los bordes del objeto.</li>
+<li><strong>Longitud de Sobrante:</strong> Para que sean visibles, deben sobrepasar la línea de cota que delimitan. Deben superar la línea de cota unos <strong>2 mm</strong>.</li>
+<li><strong>Uso de Ejes como Referencia:</strong> Las líneas de eje (las que marcan el centro de figuras circulares o simétricas) <strong>pueden aprovecharse</strong> como líneas auxiliares de cota.</li>
+<li><strong>Prohibición de Corte:</strong> Para mantener la claridad del dibujo, las líneas de cota y las líneas auxiliares de cota <strong>no deben cortarse</strong>. (Aunque las líneas auxiliares sí pueden cruzarse entre sí, si es necesario, siempre que se evite dicho cruce cuando sea posible).</li>
+</ol>
+<p><img align="right" alt="acotacion" src="../media/cifra_cota1.png" width="35%" /></p>
+<h3 id="513-cifra-de-cota"><strong>5.1.3. Cifra de cota</strong></h3>
+<p>Es el <strong>número</strong> que marca la medida. Tiene que ser claro para que no exista la posibilidad de error. Tiene que estar apoyado sobre la línea de cota.</p>
+<h4 id="reglas-esenciales-para-las-cifras-de-cota">Reglas Esenciales para las Cifras de Cota</h4>
+<ol>
+<li><strong>El Valor es la Realidad:</strong> La cifra siempre debe indicar la <strong>medida real</strong> de la longitud del objeto, sin importar si el dibujo está ampliado o reducido.</li>
+<li><strong>Tamaño y Uniformidad:</strong> Los números deben tener una altura uniforme y clara. Se recomienda que tengan una altura aproximada de <strong>3 a 4 mm</strong> para que se lean bien (y nunca menos de 2,5 mm).</li>
+<li><strong>Unidad Única:</strong> Todas las medidas de un mismo dibujo deben expresarse en la <strong>misma unidad</strong>, que generalmente son los <strong>milímetros (mm)</strong>. Si tienes que usar otra unidad, se debe indicar justo después de la cifra.</li>
+<li><strong>Posición Fija:</strong> Las cifras se colocan siempre <strong>encima de la línea de cota</strong>. Su base debe ser <strong>paralela</strong> a dicha línea.</li>
+<li><strong>Ubicación Preferida:</strong> Siempre que sea posible, el número debe estar <strong>dentro</strong> de las líneas auxiliares de cota. Si el espacio es muy pequeño, la cifra se coloca por fuera.</li>
+<li><strong>Organización Vertical:</strong> Si tienes varias cotas puestas una sobre la otra, deben colocarse de forma <strong>ordenada y alineada</strong>.</li>
+<li><strong>¡Prohibido Cruzar!</strong> Por claridad, la cifra <strong>no debe ser separada ni cruzada por ninguna línea</strong>. Tampoco se debe colocar sobre los bordes o aristas del dibujo.</li>
+</ol>
+<p><img align="right" alt="acotacion" src="../media/flecha1.png" width="35%" /></p>
+<h3 id="514-flecha-de-cota"><strong>5.1.4. Flecha de cota</strong></h3>
+<p>Es el elemento donde <strong>finaliza las líneas de cota</strong>. Sirve para indicar de donde a donde llega la dimensión de esa cota, aunque no siempre finaliza en flecha. Como se ve más detalladamente en los ejemplos de abajo, hay otros elementos que sustituyen a las flechas.</p>
+<p>La flechas de cota tienen forma de triángulos isósceles de una longitud <strong>L de unos 3 mm</strong> ; el ángulo desigual de dicho triángulo es de <strong>15º</strong>.</p>
+<h4 id="reglas-esenciales-para-dibujar-las-flechas-de-cota">Reglas Esenciales para dibujar las Flechas de Cota</h4>
+<ol>
+<li><strong>Terminación Estándar:</strong> Cada línea de cota debe acabar en <strong>dos flechas</strong> situadas en los extremos. Estas flechas generalmente tienen la forma de un <strong>triángulo isósceles</strong> y se rellenan.</li>
+<li><strong>Ángulo Correcto:</strong> El ángulo que forman los lados de la punta de la flecha debe ser de <strong>15º</strong>.</li>
+<li><strong>Tamaño y Uniformidad:</strong> Todas las flechas que dibujes en el plano deben ser <strong>iguales</strong> (mantener una longitud uniforme).</li>
+<li><strong>Ubicación Principal:</strong> Siempre que sea posible, las flechas se colocan <strong>por dentro</strong> de las líneas auxiliares de cota (las que salen de la pieza). Si no hay suficiente espacio (porque la medida es muy pequeña), se colocan <strong>por fuera</strong> de esas líneas.</li>
+<li><strong>Alternativa por Falta de Espacio:</strong> Si la distancia a acotar es tan pequeña que las flechas quedan "muy juntas" y no caben, se deben sustituir por <strong>puntos</strong>.</li>
+<li><strong>Dibujos Especiales:</strong> En los planos de <strong>construcción y estructuras metálicas</strong>, en lugar de flechas rellenas, a veces se utiliza un trazo inclinado de <strong>45º</strong>.</li>
+</ol>
+<hr />
+<h3 id="52-reglas-basicas-para-acotar"><strong>5.2. Reglas básicas para acotar</strong></h3>
+<p>Para que todo el mundo entienda las medidas, debemos seguir unas normas fundamentales:</p>
+<ol>
+<li><strong>No repetir cotas:</strong> Una medida solo se debe indicar una vez en todo el plano. No se debe acotar la misma distancia en el alzado y en la planta, por ejemplo.</li>
+<li><strong>Colocar las cotas fuera de la figura:</strong> Siempre que sea posible, las cotas se sitúan en el exterior del dibujo.</li>
+<li><strong>Usar la vista más adecuada:</strong> Cada cota se debe colocar en la vista que mejor represente esa parte del objeto.</li>
+<li><strong>No cruzar las líneas de cota:</strong> Las líneas de cota no deben cruzarse entre ellas ni con otras líneas del dibujo.</li>
+<li><strong>No acotar sobre líneas ocultas:</strong> No se deben poner medidas sobre partes del objeto que no se ven directamente.</li>
+</ol>
+<hr />
+<p>Ahora que conocemos las reglas básicas, imagina que tienes las vistas (alzado, planta y perfil) de un cubo que mide 40 mm de lado.</p>
+<p>Si tuvieras que acotar el cubo, ¿qué tres medidas (alto, ancho y profundo) pondrías y en qué vista colocarías cada una para no repetir ninguna?</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../5_2_vistas_seis/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 5.2. Las seis vistas de un objeto">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                5.2. Las seis vistas de un objeto
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../7_librecad/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: 7. Dibujo asistido por ordenador (CAD)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                7. Dibujo asistido por ordenador (CAD)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Elaborado por Alberto Durán Pérez - Departamento de Tecnología IES Frei Martín Sarmiento (Pontevedra)
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs.sticky", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.highlight", "search.suggest", "search.share", "content.code.annotate", "content.tabs", "content.tooltips", "content.images", "content.captions", "content.emoji", "content.math", "content.video", "content.audio", "content.details", "content.admonition", "content.code.copy", "content.code.annotate"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+        <script src="../javascripts/katex.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../js/quiz.js"></script>
+      
+        <script src="../js/cuestionario-generico.js"></script>
+      
+    
+  </body>
+</html>
