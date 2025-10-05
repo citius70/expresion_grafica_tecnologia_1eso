@@ -1,0 +1,202 @@
+site_name: Expresión gráfica
+
+theme:
+  name: material
+  language: es
+  font:
+    text: Noto sans, sans-serif
+    code: Fira code, sans-serif
+  palette:
+    scheme: default
+    primary: blue 
+    accent: pink
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/github
+    annotation: material/arrow-right-circle
+
+  features:
+
+  # - navigation.top
+  # - navigation.sections     # Submenús laterales
+    - navigation.instant      # Navegación instantánea sin recargar la página
+  # - navigation.expand       # Siempre mostrar desplegados
+  # - navigation.tabs         # Pestañas para contenido alternativo
+    - navigation.tabs.sticky  # Pestañas pegajosas
+  # - navigation.tabs.alternate_style  # Estilo alternativo para pestañas 
+    - navigation.footer
+    - navigation.indexes      # Índices de contenido
+    - navigation.tracking
+
+  # - toc.integrate           # Tabla de contenidos integrada en la barra lateral
+    - search.highlight       # Resaltar términos de búsqueda
+    - search.suggest         # Sugerencias de búsqueda
+    - search.share
+    - content.code.annotate  # Anotaciones en bloques de código
+    - content.tabs           # Pestañas para contenido alternativo
+    - content.tooltips       # Tooltips para enlaces internos
+  # - content.footnotes      # Notas al pie
+  # - content.tables         # Estilo mejorado para tablas
+    - content.images         # Estilo mejorado para imágenes
+    - content.captions       # Leyendas para imágenes y tablas
+    - content.emoji          # Soporte para emojis
+    - content.math           # Soporte para matemáticas (KaTeX)
+    - content.video          # Soporte para vídeos
+    - content.audio          # Soporte para audios
+    - content.details        # Etiqueta <details> y <summary>
+    - content.admonition     # Bloques de admonición
+    
+
+    # Content
+    - content.code.copy
+    - content.code.annotate
+
+
+
+copyright: Elaborado por Alberto Durán Pérez - Departamento de Tecnología IES Frei Martín Sarmiento (Pontevedra)
+# repo_url: 
+# repo_name: 
+
+
+nav:
+  - Inicio: index.md
+
+  - 1. La tecnología y el dibujo: 1_tecnologia_dibujo.md
+  - 2. Del boceto al croquis: 2_boceto.md
+  - 3. El plano: 3_plano.md
+  - 4. Materiales para el dibujo técnico: 4_materiales.md
+  - 5. Las vistas de un objeto (Sistema Diédrico): 
+      - 5.1. Introducción a las vistas: 5_vistas.md
+      - 5.1. Las tres vistas principales: 5_1_vistas_tres.md
+      - 5.2. Las seis vistas de un objeto: 5_2_vistas_seis.md
+  - 6. La acotación (poniendo las medidas): 6_acotacion.md
+  - 7. Dibujo asistido por ordenador (CAD): 7_librecad.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - js/quiz.js
+  - js/cuestionario-generico.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - css/quiz.css
+  - css/cuestionarios.css
+
+plugins:
+  - pdf-export
+  - search:
+      lang: es
+      separator: '[\s\-]+'
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_themed: false
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
+
+  # - to-pdf:
+        # verbose: true
+        # media_type: print
+        # enabled_if_env: ENABLE_PDF_EXPORT
+        #output_path: pdfs
+        #output_file: libro_de_tecnologia.pdf
+        #output_path: document.pdf
+
+  - with-pdf:
+      author: "Tu Nombre"
+      copyright: "© 2025 Tu Organización"
+      cover_title: "Documentación del Proyecto"
+      cover_subtitle: "Versión completa en PDF"
+      toc_title: "Tabla de Contenidos"
+      output_path: pdf/documentacion_completa.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
+
+
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+
+  
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - js/quiz.js
+  - js/cuestionario-generico.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - css/quiz.css
+  - css/cuestionarios.css
+
+plugins:
+  - search:
+      lang: es
+      separator: '[\s\-]+'

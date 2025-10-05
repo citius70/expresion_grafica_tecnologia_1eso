@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <!-- Navegación anterior/siguiente en la parte SUPERIOR -->
+  {% if page.previous_page or page.next_page %}
+    <div class="md-top-navigation">
+      {% if page.previous_page %}
+        <a href="{{ page.previous_page.url | url }}" class="md-top-nav__link md-top-nav__link--prev" title="{{ page.previous_page.title }}">
+          ← {{ page.previous_page.title }}
+        </a>
+      {% endif %}
+      {% if page.next_page %}
+        <a href="{{ page.next_page.url | url }}" class="md-top-nav__link md-top-nav__link--next" title="{{ page.next_page.title }}">
+          {{ page.next_page.title }} →
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <!-- Contenido principal -->
+  {{ super() }}
+{% endblock %}
