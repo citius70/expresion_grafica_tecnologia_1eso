@@ -1,0 +1,27 @@
+/* Solución minimalista para problemas de fuentes en PDF */
+body {
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Deshabilitar completamente las ligaduras */
+* {
+    font-variant-ligatures: none !important;
+}
+
+/* Si necesitas forzar un estilo específico */
+.force-font {
+    font-family: Arial, sans-serif !important;
+    font-variant-ligatures: none !important;
+}
+
+/* Debug - esto debería verse en el PDF */
+body::before {
+    content: "CSS cargado correctamente";
+    display: block;
+    background: yellow;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red;
+    font-weight: bold;
+}
