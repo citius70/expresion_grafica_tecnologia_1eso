@@ -1,17 +1,35 @@
-# **5.1. Las tres vistas principales: Alzado, Planta y Perfil**
+# Las tres vistas principales: Alzado, Planta y Perfil
 
 ![proyeccion](./media/proyeccion.webp){align=right width=40%}
 
-
 Las vistas son las proyecciones de las caras de un objeto sobre diferentes planos (como si fueran paredes imaginarias). Aunque un objeto tiene **seis caras**, para definirlo por completo normalmente nos bastan **tres vistas principales**:
 
-*   **Alzado:** Es la vista más importante, la que nos da más información del objeto. Es la imagen que vemos al mirar el objeto **de frente**.
-*   **Planta:** Es la imagen que vemos al mirar el objeto **desde arriba**.
-*   **Perfil:** Es la imagen que vemos al mirar el objeto **desde un lado**. 
-    *   Puede ser el perfil izquierdo (mirando desde la izquierda) o el derecho (mirando desde la derecha).
+| **Vista** | **¿Desde dónde miramos?** | **¿Qué vemos?** | **¿Para qué sirve?** |
+|-----------|---------------------------|-----------------|----------------------|
+| **ALZADO** | De frente hacia el objeto | La parte delantera del objeto | Es la **vista principal**. Nos da la mayor información del objeto. |
+| **PLANTA** | Desde arriba hacia el objeto | La forma del objeto visto desde el techo | Nos muestra cómo es el objeto "por encima". |
+| **PERFIL** | Desde un lado (izquierdo o derecho) hacia el objeto | El lateral del objeto | Nos enseña la profundidad y detalles de los lados. |
+
+    
+![pieza 02](./media/pieza02_vistas.png)
+
+> Estas tres vistas nos permiten entender todas las dimensiones del objeto: su altura, anchura y profundidad.
   
 
-## **5.1.2. Pasos para la obtención de las tres vistas principales**
+**Ejemplo sencillo:**
+
+![caja](./img/caja2.png){align=right width=30%}
+
+Imagina una **caja de zapatos**:  
+
+- **Alzado**: ves la parte donde está la tapa y el dibujo de la caja.  
+- **Planta**: ves el rectángulo de la tapa desde arriba.  
+- **Perfil**: ves el lateral de la caja, con su grosor y altura.
+
+Estas tres vistas juntas nos permiten entender cómo es el objeto completo, aunque el papel sea plano. 📐✨
+
+
+## Pasos para la obtención de las tres vistas principales
 
 ![pieza 01](./media/pieza01.webp){align=right width=30%}
 
@@ -63,7 +81,7 @@ Según esto, el perfil que encontraríamos sería:
 
 
 
-## **5.1.3. La colocación de las vistas**
+## La colocación de las vistas
 
 ![pieza 01](./media/pieza01_vistas.webp){align=right width=30%}
 
@@ -79,7 +97,7 @@ Y así es como se presentarían finalmente:
 
 ![pieza 01 planta](./media/pieza01_vistas.png){style="display: block; margin: 0 auto" width=40%}
 
-## **5.1.4. Posiciones relativas de las tres vistas principales**
+## Posiciones relativas de las tres vistas principales
 
 A partir de lo explicado, decidimos utilizar el Sistema Europeo de proyección para todos los ejemplos de esta web.
 
@@ -88,7 +106,7 @@ Según eso, hemos visto cómo las vistas (alzado, planta y perfil) adoptan unas 
 ![pieza 02](./media/pieza02_vistas.png){align=right width=100%}
 
    
-## **5.1.5. Correspondencia entre las tres vistas**
+## Correspondencia entre las tres vistas
 
 Cuando dibujamos un objeto en un plano, usamos tres vistas: la vista de frente (alzado), la vista desde arriba (planta) y la vista de lado (perfil). Si te para a pensar, hay ciertas medidas que coinciden en distintas vistas:
 

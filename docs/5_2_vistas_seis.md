@@ -1,4 +1,4 @@
-## **Capítulo 5.2. Las seis vistas de un objeto**
+## Las seis vistas de un objeto
 
 Aunque el **alzado, la planta y el perfil (izquierdo)** son las tres vistas más importantes, un objeto tiene en realidad **seis caras**. Por tanto, podemos obtener hasta **seis vistas diferentes**, que se nombran de la siguiente manera:
 
@@ -17,7 +17,7 @@ graph LR
   
 Sin embargo, casi nunca es necesario dibujar las seis vistas. La razón es que, con las tres vistas principales (alzado, planta y perfil izquierdo), la mayoría de los objetos ya quedan perfectamente definidos y se entiende su forma y medidas sin ninguna duda.
 
-![vistas](/media/vistas5.jpg){ align=left width=100% }
+![vistas](media/vistas5.jpg){ align=left width=100% }
 
 
 ***

@@ -1,23 +1,45 @@
+# El Plano (o dibujo delineado)  
 
-***
+![plano](./media/plano1.jpg){align=right width=30%}  
 
-# Capítulo 3: **El Plano (o Dibujo Delineado)**
+En el capítulo anterior aprendimos que el **boceto** y el **croquis** son dibujos hechos a **mano alzada**, que nos sirven para expresar nuestras primeras ideas.  
+Pero cuando ya tenemos clara la forma definitiva del objeto y necesitamos representarlo con precisión para **fabricarlo**, damos un paso más y realizamos un **plano** o **dibujo delineado**, que es el más exacto de todos.
 
-![plano](./media/plano1.jpg){align=right width=30%}
-
-Como vimos en el capítulo anterior, **el boceto y el croquis** son dibujos que se realizan a mano alzada para plasmar nuestras primeras ideas. Sin embargo, cuando necesitamos que la representación de un objeto sea lo más exacta posible para poder fabricarlo, pasamos a un dibujo mucho más preciso: el **plano** o **dibujo delineado**.
+## ¿Qué es un plano?
 
 !!! note "Plano"
-
-    Un plano es un dibujo técnico que se realiza utilizando herramientas auxiliares de dibujo, como la regla, la escuadra, el cartabón y el compás. Este tipo de dibujo contiene toda la información necesaria y detallada para la construcción del objeto.
+    Un **plano** es un tipo de **dibujo técnico** que se realiza con **instrumentos de dibujo** (como la regla, la escuadra, el cartabón o el compás) o con ayuda del ordenador. 
+     
+    Este dibujo contiene **toda la información necesaria** para construir un objeto: sus formas, medidas, materiales y detalles.
 
 ![plano](./media/plano.webp){align=right width=100%}
 
-Hoy en día, además de los instrumentos tradicionales, es muy común utilizar ordenadores con programas específicos de **Diseño Asistido por Ordenador (CAD)**, como LibreCAD, que permiten realizar y modificar planos de forma mucho más fácil y precisa.
+Los planos permiten que **cualquier persona** (por ejemplo, un carpintero, un técnico o un ingeniero) pueda entender cómo construir exactamente el objeto sin necesidad de explicaciones largas.  
+Por eso, el plano es el **lenguaje universal** de la tecnología, ya que todos los profesionales lo comprenden igual.
+
+## Tipos de planos  
+Dependiendo de lo que queramos dibujar, existen diferentes tipos de planos:  
+
+- **Plano de conjunto:** muestra cómo están colocadas las distintas piezas que forman un objeto.  
+- **Plano de pieza:** representa una sola parte con todas sus medidas.  
+- **Plano arquitectónico:** se usa para representar edificios, casas o espacios.  
+
+Cada tipo de plano tiene una **escala**, que es una forma de representar objetos grandes o pequeños en un tamaño adecuado para el papel.
+
+## El dibujo con instrumentos y el uso de programas CAD  
+
+Tradicionalmente, los planos se dibujaban **a mano**, utilizando herramientas como el **compás**, las **escuadras**, la **regla** o el **cartabón**.  
+Hoy en día, además de estos instrumentos, se emplean programas de ordenador llamados **CAD (Diseño Asistido por Ordenador)**, como **LibreCAD** o **AutoCAD**, que permiten dibujar planos de forma más **rápida, precisa** y fácil de modificar.
 
 ![cad](./media/librecad.webp){align=right width=100%}
 
-***
+Los programas CAD son herramientas muy importantes en la tecnología moderna, ya que se utilizan en casi todos los sectores: diseño industrial, arquitectura, ingeniería, robótica, muebles, moda y muchos más.
 
+## Para pensar...  
 
-El siguiente paso lógico, según nuestra nueva estructura, es hablar de los materiales que necesitamos para pasar de un croquis a mano alzada a un plano bien delineado. ¿Recuerdas cuáles son algunas de esas herramientas básicas que mencionamos?
+El siguiente paso lógico en el proceso de diseño es **preparar los materiales y herramientas** que nos ayudarán a pasar del **croquis** (hecho a mano alzada) al **plano** (con instrumentos o con ordenador).  
+
+¿Recuerdas cuáles son algunas de esas herramientas básicas?  
+Piensa en objetos como la **regla**, la **escuadra**, el **cartabón**, el **compás** o el **rotulador técnico**, que son esenciales para empezar a delinear como un verdadero diseñador.
+
+---

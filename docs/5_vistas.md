@@ -1,13 +1,12 @@
+# Las vistas de un objeto (Sistema Diédrico)
 
-La pregunta que te lancé era cómo representar un objeto de tres dimensiones en una hoja de papel, que solo tiene dos. Es un gran reto, y la solución es uno de los conceptos más importantes del dibujo técnico.
+Ahora que ya conocemos las herramientas, tenemos un **nuevo reto**: los objetos reales tienen **tres dimensiones** (alto, ancho y profundidad), pero el **papel solo tiene dos** (largo y ancho).
+  
+¿Cómo se te ocurre que podríamos representar un objeto tridimensional, como una silla o una caja, en una hoja de papel para que se entiendan todas sus caras: lo que se ve de frente, desde arriba y desde un lado?
 
-¡Vamos al siguiente capítulo!
+En este capítulo descubriremos la respuesta: las **vistas** o **proyecciones**, que son la clave del dibujo técnico.
 
-***
-
-# **Capítulo 5: Las Vistas de un Objeto (Sistema Diédrico)**
-
-## **5.1. Introducción a la
+## Introducción a las vistas
 
 ![dimensiones](./media/dimensiones.jpg){align=right width=40%}
 

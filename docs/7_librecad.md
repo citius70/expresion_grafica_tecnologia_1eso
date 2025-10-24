@@ -1,4 +1,4 @@
-# **Capítulo 7: Dibujo Asistido por Ordenador**
+# Dibujo Asistido por Ordenador
 
 Hasta ahora hemos aprendido a crear planos precisos utilizando instrumentos de dibujo tradicionales. Sin embargo, hoy en día es muy común usar **programas de ordenador que permiten realizar y modificar planos** de forma mucho más fácil y rápida. Estos programas se conocen como **CAD** (Diseño Asistido por Ordenador).
 

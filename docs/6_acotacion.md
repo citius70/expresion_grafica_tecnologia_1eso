@@ -4,7 +4,7 @@ Como habíamos comentado, una vez dibujadas las vistas (alzado, planta y perfil)
 
 ***
 
-# **Capítulo 6: La Acotación (poniendo las medidas)**
+# La Acotación (poniendo las medidas)
 
 ![acotacion](./media/acotacion1.png){align=right width=60%}
 
