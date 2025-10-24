@@ -1,14 +1,14 @@
 # Las tres vistas principales: Alzado, Planta y Perfil
 
-![proyeccion](./media/proyeccion.webp){align=right width=40%}
+![proyeccion](./media/proyeccion.webp){align=right width=30%}
 
 Las vistas son las proyecciones de las caras de un objeto sobre diferentes planos (como si fueran paredes imaginarias). Aunque un objeto tiene **seis caras**, para definirlo por completo normalmente nos bastan **tres vistas principales**:
 
 | **Vista** | **¿Desde dónde miramos?** | **¿Qué vemos?** | **¿Para qué sirve?** |
 |-----------|---------------------------|-----------------|----------------------|
-| **ALZADO** | De frente hacia el objeto | La parte delantera del objeto | Es la **vista principal**. Nos da la mayor información del objeto. |
-| **PLANTA** | Desde arriba hacia el objeto | La forma del objeto visto desde el techo | Nos muestra cómo es el objeto "por encima". |
-| **PERFIL** | Desde un lado (izquierdo o derecho) hacia el objeto | El lateral del objeto | Nos enseña la profundidad y detalles de los lados. |
+| **ALZADO** | De frente hacia el objeto | La parte **delantera** del objeto | Es la **vista principal**. Nos da la mayor información del objeto. |
+| **PLANTA** | Desde arriba hacia el objeto | La parte de **arriba** del objeto| Nos muestra cómo es el objeto por encima. |
+| **PERFIL** | Desde un lado (izquierdo o derecho) hacia el objeto | El **lateral** del objeto | Nos enseña la profundidad y detalles de los lados. |
 
     
 ![pieza 02](./media/pieza02_vistas.png)
@@ -26,7 +26,7 @@ Imagina una **caja de zapatos**:
 - **Planta**: ves el rectángulo de la tapa desde arriba.  
 - **Perfil**: ves el lateral de la caja, con su grosor y altura.
 
-Estas tres vistas juntas nos permiten entender cómo es el objeto completo, aunque el papel sea plano. 📐✨
+Estas tres vistas juntas nos permiten entender cómo es el objeto completo 📦, aunque el papel sea plano📝 .
 
 
 ## Pasos para la obtención de las tres vistas principales
@@ -37,22 +37,23 @@ Vamos a imaginar que nos piden que dibujemos las **vistas** que representan la f
 
 **Paso 1: Elegir el Alzado**
 
-El **alzado**, es la proyección realizada sobre el Plano Vertical (PV).
+El **Alzado** además de ser la proyección realizada sobre el Plano Vertical (PV), es la vista **más importante de todas**, porque:
 
-Elegir el Alzado, es una tarea sumamente importante. 
+- Debe proporcionar la mayor cantidad de información sobre la pieza.
+  
+- Hay que dibujarla siempre y debería ser la primera en dibujarse.
 
 
-
+> Elegir el Alzado, es una tarea sumamente importante. 
 
 !!!note "Importante"
+    Hay que elegir como **Alzado la vista que proporcione mayor información** de la pieza.
 
-    Hay que elegir como **alzado la vista que proporcione mayor información** de la pieza. Elegir el alzado, es una tarea sumamente importante. 
-
-Después de elegir el alzado, nos tendremos que «situar» mentalmente, delante de la pieza y obtener las proyecciones sobre el Plano Vertical (PV) de cada uno de los planos que conforman la pieza.
+Después de elegir el Alzado, nos tendremos que «situar» mentalmente, delante de la pieza y obtener las proyecciones sobre el Plano Vertical (PV) de cada uno de los planos que conforman la pieza.
 
 ![pieza 01 alzado](./media/pieza01_alzado.png){align=right width=100%}
 
-Según esto, el alzado que dibujaremos en el papel sería:
+Según esto, el Alzado que dibujaremos en el papel sería:
 
 ![pieza 01](./media/pieza01_alzado_plano.png){style="display: block; margin: 0 auto" width=30%}
 
@@ -61,9 +62,9 @@ Según esto, el alzado que dibujaremos en el papel sería:
 
 ![pieza 01](./media/pieza01_planta1.png){align=right width=40%}
 
-Para obtener la Planta, a partir de la situación utilizado para sacar el Alzado,** «subiremos» mentalmente encima de la pieza y proyectaremos (miramos) hacia abajo**, hacia el Plano Horizontal.
+Para obtener la **Planta**, a partir de la situación utilizado para sacar el Alzado, *subiremos* mentalmente encima de la pieza y proyectaremos (miramos) hacia abajo, hacia el Plano Horizontal.
 
-La vista obtenida desde esta posición, es la planta de la pieza
+La vista obtenida desde esta posición, es la **Planta** de la pieza
 
 ![pieza 01 planta](./media/pieza01_planta_papel.png){style="display: block; margin: 0 auto" width=30%}
 
@@ -71,15 +72,13 @@ La vista obtenida desde esta posición, es la planta de la pieza
 
 ![pieza 01](./media/pieza01_perfilizquierdo.webp){align=right width=40%}
 
-La vista llamada Perfil, es la proyección de la pieza que se realiza sobre el Plano de Perfil (PP).
+La vista llamada **Perfil**, es la proyección de la pieza que se realiza sobre el Plano de Perfil (PP).
 
-Pasa obtener** el perfil izquierdo**, tendremos que cambiar nuestra posición, nos tendremos que **dirigir a la izquierda y proyectar** sobre al plano de Perfil. Tendremos el Perfil izquierdo proyectado sobre el plano derecho.
+Para obtener el **Perfil izquierdo**, tendremos que cambiar nuestra posición, nos tendremos que **dirigir a la izquierda y proyectar** sobre al plano de Perfil. Tendremos el Perfil izquierdo proyectado sobre el plano derecho.
 
 Según esto, el perfil que encontraríamos sería:
 
 ![pieza 01 planta](./media/pieza01_perfilizquierdo_papel.png){style="display: block; margin: 0 auto" width=30%}
-
-
 
 ## La colocación de las vistas
 
@@ -96,10 +95,6 @@ Para que todo el mundo pueda interpretar el plano de la misma manera, la **posic
 Y así es como se presentarían finalmente:
 
 ![pieza 01 planta](./media/pieza01_vistas.png){style="display: block; margin: 0 auto" width=40%}
-
-## Posiciones relativas de las tres vistas principales
-
-A partir de lo explicado, decidimos utilizar el Sistema Europeo de proyección para todos los ejemplos de esta web.
 
 Según eso, hemos visto cómo las vistas (alzado, planta y perfil) adoptan unas posiciones dentro de la lámina en las que el perfil, está a la derecha del alzado y la planta, debajo del alzado.
 
