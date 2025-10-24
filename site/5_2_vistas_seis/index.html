@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../5_1_vistas_tres/">
+        <link rel="prev" href="../ejercicios/tresvistas_ejercicio/">
       
       
-        <link rel="next" href="../6_acotacion/">
+        <link rel="next" href="../ejercicios/seisvistas_ejercicio/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -443,6 +443,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -529,6 +533,29 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../ejercicios/tresvistas_ejercicio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ❔ Autoevaluación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -537,6 +564,8 @@
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
+      
+        
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
@@ -570,6 +599,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -578,18 +609,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#las-seis-vistas-de-un-objeto" class="md-nav__link">
+  <a href="#la-colocacion-de-las-vistas" class="md-nav__link">
     <span class="md-ellipsis">
-      Las seis vistas de un objeto
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-la-colocacion-de-las-vistas-sistema-europeo" class="md-nav__link">
-    <span class="md-ellipsis">
-      4.. La Colocación de las Vistas (Sistema Europeo)
+      La colocación de las vistas
     </span>
   </a>
   
@@ -599,6 +621,29 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ejercicios/seisvistas_ejercicio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ❔ Autoevaluación
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -693,11 +738,9 @@
 
 
 
-  <h1>5️⃣.3️⃣ Las seis vistas de un objeto</h1>
-
-<h2 id="las-seis-vistas-de-un-objeto">Las seis vistas de un objeto</h2>
-<p>Aunque el <strong>alzado, la planta y el perfil (izquierdo)</strong> son las tres vistas más importantes, un objeto tiene en realidad <strong>seis caras</strong>. Por tanto, podemos obtener hasta <strong>seis vistas diferentes</strong>, que se nombran de la siguiente manera:</p>
-<pre class="mermaid"><code>graph LR
+<h1 id="las-seis-vistas-de-un-objeto">Las seis vistas de un objeto</h1>
+<p>Aunque el <strong>Alzado, la Planta y el Perfil (izquierdo o derecho)</strong> son las tres vistas más importantes, un objeto tiene en realidad <strong>seis caras</strong> (piensa en un dado 🎲). Por tanto, podemos obtener hasta <strong>seis vistas diferentes</strong>, que se nombran de la siguiente manera:</p>
+<pre class="mermaid"><code>graph TD
   A[**VISTAS**]--&gt;B[ALZADOS]
   B -- Vista de frente --&gt; C[1. Alzado anterior]
   B -- Vista desde atrás --&gt; D[2. Alzado posterior]
@@ -709,12 +752,11 @@
   H -- Vista desde la derecha--&gt; J[6. Perfil derecho]</code></pre>
 <p>Sin embargo, casi nunca es necesario dibujar las seis vistas. La razón es que, con las tres vistas principales (alzado, planta y perfil izquierdo), la mayoría de los objetos ya quedan perfectamente definidos y se entiende su forma y medidas sin ninguna duda.</p>
 <p><img align="left" alt="vistas" src="../media/vistas5.jpg" width="100%" /></p>
-<hr />
-<h2 id="4-la-colocacion-de-las-vistas-sistema-europeo"><strong>4.. La Colocación de las Vistas (Sistema Europeo)</strong></h2>
-<p><img align="right" alt="vistas" src="../media/pieza-102-sistema-europeo-3.webp" width="40%" /></p>
+<h2 id="la-colocacion-de-las-vistas">La colocación de las vistas</h2>
+<p><img align="right" alt="vistas" src="../media/pieza-102-sistema-europeo-3.webp" width="30%" /></p>
 <p>Para que todos los dibujos técnicos se puedan interpretar de la misma forma, la posición de las vistas sigue una norma internacional (UNE 1032 en España). Es como si metiéramos el objeto en una caja de cristal y luego desplegáramos sus caras.</p>
 <p>Debajo se pueden ver las vistas desde la representación isométrica a la representación ortogonal en el Sistema Europeo.</p>
-<p><img align="left" alt="vistas" src="../media/vistas1.jpg" /></p>
+<p><img alt="vistas" src="../media/vistas1.jpg" /></p>
 <p>La colocación es siempre la siguiente:</p>
 <ol>
 <li><strong>El Alzado (vista de frente) es la vista principal</strong> y se toma como referencia. Se coloca en el centro del área de dibujo.</li>
@@ -728,11 +770,6 @@
 <li><strong>La Vista Posterior (lo que vemos desde atrás)</strong> se dibujaría a la derecha del perfil izquierdo.</li>
 </ul>
 <p>Normalmente, con las tres vistas principales (alzado, planta y perfil izquierdo) es suficiente para definir un objeto.</p>
-<hr />
-<p>¿Entendido?. Entonces, para que quede claro, si estás dibujando el alzado de un coche y quieres añadir la vista desde el lado del conductor (el izquierdo), ¿en qué posición la dibujarías con respecto al alzado?</p>
-<p>Si el alzado es la vista central, ¿dónde crees que se dibujaría la vista desde abajo (planta inferior) o la vista desde la derecha (perfil derecho)?</p>
-<hr />
-<p>Ahora que sabemos cómo dibujar la forma de un objeto desde sus tres vistas principales, ¿qué información fundamental crees que nos falta para que alguien pueda fabricarlo con las medidas exactas?</p>
 
 
 
@@ -814,7 +851,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Pie" >
         
           
-          <a href="../5_1_vistas_tres/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 5️⃣.2️⃣ Las tres vistas principales">
+          <a href="../ejercicios/tresvistas_ejercicio/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: ❔ Autoevaluación">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -824,20 +861,20 @@
                 Anterior
               </span>
               <div class="md-ellipsis">
-                5️⃣.2️⃣ Las tres vistas principales
+                ❔ Autoevaluación
               </div>
             </div>
           </a>
         
         
           
-          <a href="../6_acotacion/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: 6️⃣ La acotación (poniendo las medidas)">
+          <a href="../ejercicios/seisvistas_ejercicio/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: ❔ Autoevaluación">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Siguiente
               </span>
               <div class="md-ellipsis">
-                6️⃣ La acotación (poniendo las medidas)
+                ❔ Autoevaluación
               </div>
             </div>
             <div class="md-footer__button md-icon">
