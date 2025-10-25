@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../6_acotacion/">
+        <link rel="prev" href="../ejercicios/acotacion_ejercicios/">
       
       
       
@@ -629,6 +629,28 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../ejercicios/acotacion_ejercicios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ❔ Autoevaluación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -682,27 +704,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#71-la-interfaz-de-librecad-nuestro-espacio-de-trabajo" class="md-nav__link">
+  <a href="#la-interfaz-de-librecad" class="md-nav__link">
     <span class="md-ellipsis">
-      7.1. La Interfaz de LibreCAD: Nuestro Espacio de Trabajo
+      La Interfaz de LibreCAD
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#72-conceptos-fundamentales-entidades-y-capas" class="md-nav__link">
+  <a href="#conceptos-fundamentales-entidades-y-capas" class="md-nav__link">
     <span class="md-ellipsis">
-      7.2. Conceptos Fundamentales: Entidades y Capas
+      Conceptos fundamentales: Entidades y Capas
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#73-el-proceso-para-dibujar-en-librecad" class="md-nav__link">
+  <a href="#el-proceso-para-dibujar-en-librecad" class="md-nav__link">
     <span class="md-ellipsis">
-      7.3. El Proceso para Dibujar en LibreCAD
+      El proceso para dibujar en LibreCAD
     </span>
   </a>
   
@@ -757,7 +779,8 @@
 <h1 id="dibujo-asistido-por-ordenador">Dibujo Asistido por Ordenador</h1>
 <p>Hasta ahora hemos aprendido a crear planos precisos utilizando instrumentos de dibujo tradicionales. Sin embargo, hoy en día es muy común usar <strong>programas de ordenador que permiten realizar y modificar planos</strong> de forma mucho más fácil y rápida. Estos programas se conocen como <strong>CAD</strong> (Diseño Asistido por Ordenador).</p>
 <p>Uno de los programas CAD que vamos a utilizar es <strong>LibreCAD</strong>, una aplicación gratuita disponible para Windows, Mac y Linux. Aunque existen muchos programas de diseño, la interfaz de LibreCAD es muy intuitiva y fácil de usar.</p>
-<h2 id="71-la-interfaz-de-librecad-nuestro-espacio-de-trabajo"><strong>7.1. La Interfaz de LibreCAD: Nuestro Espacio de Trabajo</strong></h2>
+<p><img alt="librecad" src="../img/librecad.png" />  </p>
+<h2 id="la-interfaz-de-librecad">La Interfaz de LibreCAD</h2>
 <p>Cuando abres LibreCAD, te encuentras con un espacio de trabajo organizado en varias zonas:</p>
 <ul>
 <li><strong>Barra de menú:</strong> En la parte superior, con las opciones típicas (Archivo, Editar, Ver...).</li>
@@ -765,14 +788,18 @@
 <li><strong>Cuadro de capas:</strong> Es una ventana, normalmente a la derecha, donde gestionamos las capas de nuestro dibujo.</li>
 <li><strong>Barra de estado:</strong> ¡Esta es muy importante! Se encuentra en la parte inferior de la ventana y te va diciendo qué es lo que el programa espera que hagas a continuación (por ejemplo, "especificar primer punto"). Para que el resultado en CAD sea preciso, el diseñador debe ser muy riguroso, y leer esta barra es fundamental.</li>
 </ul>
-<h2 id="72-conceptos-fundamentales-entidades-y-capas"><strong>7.2. Conceptos Fundamentales: Entidades y Capas</strong></h2>
+<h2 id="conceptos-fundamentales-entidades-y-capas">Conceptos fundamentales: Entidades y Capas</h2>
 <p>Antes de empezar a dibujar, debemos entender dos ideas clave:</p>
 <ul>
-<li><strong>Entidad:</strong> Es cada elemento que dibujamos y que el programa "conoce". Por ejemplo, un segmento de línea, un arco o un texto. Cada entidad tiene sus propias características: su forma, su posición, sus atributos (color, grosor) y la capa a la que pertenece.</li>
-<li><strong>Capas:</strong> Son como "hojas transparentes" virtuales que se apilan unas sobre otras. Cada capa contiene una parte del dibujo. Por ejemplo, es muy conveniente usar una capa para los <strong>contornos</strong> de la pieza, otra para los <strong>ejes</strong> y otra para las <strong>cotas</strong> (dimensiones). Al verlas todas juntas, forman el plano completo.</li>
+<li>
+<p><strong>Entidad:</strong> Es cada elemento que dibujamos y que el programa "conoce". Por ejemplo, un segmento de línea, un arco o un texto. Cada entidad tiene sus propias características: su forma, su posición, sus atributos (color, grosor) y la capa a la que pertenece.</p>
+</li>
+<li>
+<p><strong>Capas:</strong> Son como "hojas transparentes" virtuales que se apilan unas sobre otras. Cada capa contiene una parte del dibujo. Por ejemplo, es muy conveniente usar una capa para los <strong>contornos</strong> de la pieza, otra para los <strong>ejes</strong> y otra para las <strong>cotas</strong> (dimensiones). Al verlas todas juntas, forman el plano completo.</p>
+</li>
 </ul>
 <p>La gran ventaja de las capas es que puedes hacerlas invisibles, bloquearlas para no modificarlas por error o borrarlas sin afectar al resto del dibujo. Siempre hay una única capa activa, que es sobre la que estás trabajando en cada momento.</p>
-<h2 id="73-el-proceso-para-dibujar-en-librecad"><strong>7.3. El Proceso para Dibujar en LibreCAD</strong></h2>
+<h2 id="el-proceso-para-dibujar-en-librecad">El proceso para dibujar en LibreCAD</h2>
 <p>Como regla general, para construir cualquier elemento (entidad) en LibreCAD, seguiremos estos pasos:</p>
 <ol>
 <li><strong>Posicionarse sobre la capa de trabajo</strong> donde queremos dibujar.</li>
@@ -780,9 +807,6 @@
 <li><strong>Elegir la naturaleza</strong> del elemento: recta, círculo, texto, etc.</li>
 <li><strong>Indicar las condiciones de conexión</strong>: si empieza en un extremo, en un centro, en una intersección, etc.</li>
 </ol>
-<hr />
-<p>Ahora que conocemos la interfaz y la importancia de las capas, si tuvieras que dibujar las tres vistas (alzado, planta y perfil) de una pieza y luego acotarlas...</p>
-<p>¿Qué capas crearías primero y qué dibujarías en cada una para mantener tu trabajo lo más organizado posible?</p>
 
 
 
@@ -864,7 +888,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Pie" >
         
           
-          <a href="../6_acotacion/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 6️⃣ La acotación (poniendo las medidas)">
+          <a href="../ejercicios/acotacion_ejercicios/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: ❔ Autoevaluación">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -874,7 +898,7 @@
                 Anterior
               </span>
               <div class="md-ellipsis">
-                6️⃣ La acotación (poniendo las medidas)
+                ❔ Autoevaluación
               </div>
             </div>
           </a>
@@ -926,7 +950,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.instant", "navigation.instant.progress", "navigation.tabs.sticky", "navigation.footer", "navigation.breadcrumbs", "navigation.search", "navigation.sitemap", "navigation.indexes", "navigation.tracking", "navigation.expand", "navigation.path", "search.highlight", "search.suggest", "search.share", "content.code.annotate", "content.tabs", "content.tooltips", "content.images", "content.captions", "content.emoji", "content.math", "content.video", "content.audio", "content.details", "content.admonition", "content.code.copy", "content.code.annotate", "toc.integrate", "toc.sticky", "header.autohide", "footer.social", "footer.previous-next", "footer.edit-link", "footer.legal"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.instant", "navigation.instant.progress", "navigation.tabs.sticky", "navigation.footer", "navigation.breadcrumbs", "navigation.search", "navigation.sitemap", "navigation.indexes", "navigation.tracking", "navigation.expand", "navigation.path", "search.highlight", "search.suggest", "search.share", "content.code.annotate", "content.tabs", "content.tooltips", "content.images", "content.captions", "content.emoji", "content.math", "content.video", "content.audio", "content.details", "content.admonition", "content.code.copy", "content.code.annotate", "toc.integrate", "toc.sticky", "header.autohide", "footer.social", "footer.previous-next", "footer.edit-link", "footer.", "navigation.numbered", "navigation.sections.collapsible"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>

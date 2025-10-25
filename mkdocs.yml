@@ -64,7 +64,14 @@ theme:
     - footer.social
     - footer.previous-next
     - footer.edit-link
-    - footer.legal
+    - footer.
+    - navigation.numbered
+    - navigation.sections.collapsible
+    # - theme.custom-fonts # Enable custom fonts via CSS
+    # - theme.tabs # Enable theme tabs
+    # - theme.variables # Enable theme variables
+    # - theme.features.footer-copyright # Enable footer copyright
+    # - theme.features.navigation.numbered-headings # Enable numbered headings
 
 repo_url: https://citius70.github.io/expresion_grafica_tecnologia_1eso/
 repo_name: expresion_grafica_tecnologia_1eso
@@ -173,6 +180,8 @@ plugins:
       subject: "Teoría"
       affiliation: "IES Frei Martín Sarmiento - Pontevedra"
       enabled_if_env: ENABLE_PDF_EXPORT
+      # $ ENABLE_PDF_EXPORT=1 mkdocs build
+      # set ENABLE_PDF_EXPORT=1 && mkdocs build
       output_path: pdf/document.pdf
       
       # ESTA es la configuración que funciona para CSS
@@ -193,7 +202,7 @@ plugins:
         enabled: true
         depth: 2
       
-      number_sections: true
+      number_sections: false # No numerar secciones automáticamente
       orientation: portrait
       
       margin:
